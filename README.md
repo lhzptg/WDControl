@@ -6,18 +6,24 @@ Windows Defender 状态设置工具
 
 那咋办嘛，自己造轮子呗，国内相关论坛逛了一遍，都是注册表，组策略，Dism++，这些方法对默认启用了“篡改保护”功能的 WD 毫无作用，最后还是在 MDL 论坛找到了 Sordum 提供的一些思路，然后摸索尝试，然后就有了这个，不用破坏文件，不影响其他功能，无副作用，并且可以反禁用的小工具~
 
-功能
+## 功能
 禁用 Windows Defender
 启用 Windows Defender
 移除 Windows Defender
-命令行说明
+
+
+## 命令行说明
 /Disable        禁用 Windows Defender
 /Enable         启用 Windows Defender
 /KillWD        移除 Windows Defender
+
 移除 Windows Defender 也不会有任何提示的，请谨慎执行
 
-截图
+## 截图
 
+![image](https://user-images.githubusercontent.com/47801182/166856447-c65cd6ee-1b64-4cda-be69-b55bd17479f8.png)
+![image](https://user-images.githubusercontent.com/47801182/166856473-33cd35eb-0bfb-4d77-aa65-4bf450c2a101.png)
+![image](https://user-images.githubusercontent.com/47801182/166856479-953beb12-02f5-40b7-839a-096c98343e1b.png)
 
 
 
